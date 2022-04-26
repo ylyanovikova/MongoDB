@@ -7,6 +7,7 @@ db.users.find()
 //db.users.find({age:{$lt:25}})
 
 
+
 // 2) Знайти всіх юзерів в котрих хоча б один з батьків Tamara або Petro
 
 // db.users.find({
