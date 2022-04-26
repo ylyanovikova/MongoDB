@@ -38,7 +38,6 @@ db.users.find()
 //db.users.find({'address.flat': {$gt: 60}})
 
 
-
 // 6) Знайти всіх юзерів в яких назва вулиці містить пробіл
 //db.users.find({'address.street': /^.* .*$/i})
 
