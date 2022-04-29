@@ -164,7 +164,7 @@
 // );
 
 
-//db.students.find()
+db.students.find()
 
 // 1) Знайти всіх дітей в яких сердня оцінка 4.2
 //db.students.find({avgScore: 4.2})
@@ -266,7 +266,7 @@
 // db.students.deleteMany({
 //   avgScore: {$lt: 2.5}
 // })
-//db.students.find()
+// db.students.find()
 
 // 15) Дітям, батьки яких працюють в освіті ( teacher ) поставити 5
 // db.students.updateMany({"parents.profession": "teacher"}, {$set: {avgScore: 5}})
