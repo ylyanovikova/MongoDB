@@ -1,0 +1,27 @@
+//db.students.find({lessons: {$all:['mathematics', 'english']}})
+
+//db.students.find({'lessons.1': 'mathematics'})
+//db.students.findOne({'lessons.1': 'mathematics'}).name
+
+//db.students.find({}, {lessons: {$slice: 2}}) //залишити по 2 елементи масиву
+
+//db.students.find({lessons: {$size: 2}})
+
+// db.students.updateOne({_id: ObjectId('626a762975bc8676f82b8402')},
+// {$push: {lessons: {$each: ['python', 'js']}}})
+
+//db.students.findOne({_id: ObjectId('626a762975bc8676f82b8402')})
+
+// db.students.updateOne({_id: ObjectId('626a762975bc8676f82b8402')},
+// {$addToSet: {lessons: 'java'}})
+
+// db.students.aggregate([
+//   {
+//     $addFields: {
+//     countOfParents: {$cond: {if:{$isArray: '$parents'}, then:{$size: '$parents'}, else: 0}}
+//     }
+//   }
+// ])
+
+
+
